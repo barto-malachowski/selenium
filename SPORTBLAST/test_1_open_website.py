@@ -16,11 +16,11 @@ def test_1_open_website():
 
     driver.get("https://sportblast.pl")
 
-    #time.sleep(1)
+    time.sleep(1)
 
     WebDriverWait(driver, 10).until(EC.title_contains("SPORT BLAST - Hantle żeliwne, obciążenie, sztangi, gryfy"))
 
-    #time.sleep(1)
+    time.sleep(1)
 
     driver.quit()
 
